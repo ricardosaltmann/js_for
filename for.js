@@ -8,5 +8,17 @@ ele vai continuar o laco
 e no final incrementamos o contador*/
 for (let i = 0; i < numeros.length; i++) {
     console.log(i, numeros[i])
-    /*vamos exibir o i (contador e o valor da lista) */
+    /*vamos exibir o i (contador e o valor da lista)*/ 
 }
+
+const notas = [10, 3.4, 8, 7]
+
+let soma = 0
+
+for (let i = 0; i < notas.length; i++){
+    soma += notas[i];
+}
+
+let media = soma/notas.length
+
+console.log(media)
