@@ -22,3 +22,15 @@ for (let i = 0; i < notas.length; i++){
 let media = soma/notas.length
 
 console.log(media)
+
+
+//metodo forEach
+
+let soma2 = 0 
+
+notas.forEach(function(nota){
+    soma2 += nota
+})
+
+let media2 = soma2/notas.length
+console.log(media2)
